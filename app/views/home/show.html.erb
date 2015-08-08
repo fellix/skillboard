@@ -1,0 +1,22 @@
+<h1>Find the best companies that work with skills you like</h1>
+
+<h3>Choose your skills from the most used</h3>
+
+<%= form_tag companies_match_path do %>
+  <% @skills.in_groups_of(6, false).each do |group| %>
+    <div class="row">
+      <% group.each do |skill| %>
+        <div class="col-md-2">
+          <div class="form-group">
+            <label>
+              <%= check_box_tag "skills[]", skill.id %>
+              <%= skill.name %>
+            </label>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+
+  <%= submit_tag 'Find my dream company', class: 'btn btn-lg btn-success' %>
+<% end %>

@@ -1,0 +1,18 @@
+<h1>Check out the best companies that work with the skills you like</h1>
+
+<p>
+  Skills: <%= @skills.join(", ") %>
+</p>
+
+<% @companies.in_groups_of(4, false) do |group| %>
+  <div class="row">
+    <% group.each do |company| %>
+      <div class="col-md-3">
+        <%= render company %>
+      </div>
+    <% end %>
+  </div>
+<% end %>
+
+
+<%= link_to "I want to do it again", root_path, class: "btn btn-lg btn-default" %>

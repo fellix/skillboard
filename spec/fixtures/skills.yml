@@ -1,2 +1,11 @@
 ruby:
   name: 'Ruby'
+
+css:
+  name: 'CSS'
+
+php:
+  name: 'PHP'
+
+java:
+  name: 'Java'

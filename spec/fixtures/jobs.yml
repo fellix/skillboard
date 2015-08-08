@@ -1,0 +1,41 @@
+ruby_senior_subvisual_1:
+  company: subvisual
+  skills: [ruby, css]
+  city: 'Porto'
+  currency_code: 'EUR'
+  remote: false
+  relocation_paid: false
+  role_description: 'Lorem ipsum'
+  salary_low: 30000
+  salary_high: 48000
+  work_from_home: false
+  job_type: "Full-time"
+  source_id: 99999999
+
+ruby_senior_subvisual_2:
+  company: subvisual
+  skills: [ruby, php]
+  city: 'Porto'
+  currency_code: 'EUR'
+  remote: false
+  relocation_paid: false
+  role_description: 'Lorem ipsum'
+  salary_low: 30000
+  salary_high: 48000
+  work_from_home: false
+  job_type: "Full-time"
+  source_id: 99999999
+
+php_senior_subvisual:
+  company: subvisual
+  skills: [php, css]
+  city: 'Porto'
+  currency_code: 'EUR'
+  remote: false
+  relocation_paid: false
+  role_description: 'Lorem ipsum'
+  salary_low: 30000
+  salary_high: 48000
+  work_from_home: false
+  job_type: "Full-time"
+  source_id: 99999999

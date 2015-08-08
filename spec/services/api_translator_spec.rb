@@ -2,8 +2,6 @@ require 'rails_helper'
 require 'vcr_config'
 
 describe ApiTranslator do
-  fixtures :companies, :skills
-
   let(:subject) { described_class.new }
 
   describe 'translating companies' do
@@ -14,7 +12,7 @@ describe ApiTranslator do
     end
 
     it 'should create any new record in the database' do
-      expect(Company.all.size).to be == 10
+      expect(Company.all.size).to be > 10
     end
 
     it 'should update any existings record' do
@@ -32,7 +30,7 @@ describe ApiTranslator do
     end
 
     it 'should create any new record in the database' do
-      expect(Job.all.size).to be == 10
+      expect(Job.all.size).to be > 10
     end
 
     it 'should create any skills that doesn\'t exists' do
