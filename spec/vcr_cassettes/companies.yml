@@ -1,0 +1,193 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.landing.jobs/api/v1/companies?limit=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 01:23:08 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      Location:
+      - https://landing.jobs/api/v1/companies?limit=10
+      Content-Type:
+      - text/html
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 4a8f6c82-1896-46be-ac7f-cc806fee23bf
+      X-Runtime:
+      - '0.005523'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAPxZxVUAAxzNSw7DIAwA0asgDhCXbeWQc3RpghMc8RO4lXr7VlmP9AaT
+        luwxtPj1r/Y2NNgElnoaJJMGH6tNqn0+ATLV+A/L1cIE6gIfB3srnarw3LIU
+        0dU9rB8cZfCuHBHILwg3jnCffgAAAP//AwCfRwJjcAAAAA==
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 01:23:31 GMT
+- request:
+    method: get
+    uri: https://landing.jobs/api/v1/companies?limit=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      Cookie:
+      - ''
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 01:23:09 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, PUT, GET, OPTIONS
+      Access-Control-Request-Method:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Etag:
+      - W/"2ee1cf3e3ab956f32f8b04c92613bb5f"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _landingjobs_session=dXFFWDlYT2tYVkpFcjNUV1NzTVI3RWtzalJtcDA4VUZLMzBhSWg3YnFvOHhFT3F5bC9HWXJNYmJlcU5XK3plOEFhbFE3U1Nnb3N0ZUlIWWw4elZKYWtseFN4VFpYaU9tM3hybEFDb0tTKzBSdTErK1RJaG9qK1c5c1I2eHFmUi9acVZoUTM4NmlpWkhPNnpjM3dneVlBPT0tLXpraGxZVTNLR0ZXNVRpM3EvT2lqb0E9PQ%3D%3D--2d358c3ebb30d571344efe9ec72b0fb23b16eff8;
+        domain=.landing.jobs; path=/; secure; HttpOnly
+      - iref_signed=BAgw--110338054c8cd73eecf4b27e1e115409d58aaceb; path=/; expires=Wed,
+        08 Aug 2035 01:23:09 -0000; secure
+      X-Request-Id:
+      - 64e40de3-7a45-43fb-8e5f-591ac09b8471
+      X-Runtime:
+      - '0.047059'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+        HiEaAAA=
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 01:23:32 GMT
+recorded_with: VCR 2.9.3

@@ -28,6 +28,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'unicorn', '~> 4.9.0'
 gem 'sidekiq', '~> 3.4.2'
 gem 'sidekiq-cron', '~> 0.3.0'
+gem 'rest-client'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -42,3 +43,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0'
 end
 
+group :test do
+  gem 'vcr'
+  gem 'webmock'
+end

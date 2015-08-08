@@ -1,0 +1,139 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.landing.jobs/api/v1/companies/75
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:35:22 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      Location:
+      - https://landing.jobs/api/v1/companies/75
+      Content-Type:
+      - text/html
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 60f94655-0747-4205-8379-a805f4756bb5
+      X-Runtime:
+      - '0.004253'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIANs9xlUAAxzNQQqAIBBG4atIB+inRQQxeY+WY05plIpa0O2L1g++R66e
+        hyYT7aPneCnOooz4sCli5bKsU+NqTWUEDg72C+0eTQEnj7vDEs/EwUvB0Dc6
+        i/VZliqWwLol/Czhf7wAAAD//wMAh72mSGoAAAA=
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:35:27 GMT
+- request:
+    method: get
+    uri: https://landing.jobs/api/v1/companies/75
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      Cookie:
+      - ''
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:35:23 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, PUT, GET, OPTIONS
+      Access-Control-Request-Method:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Etag:
+      - W/"4ce01d21807353736ca3a32cd73e60a8"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _landingjobs_session=aXlneGQxcWhBMmZ4YVFXT2JOYzREcG1zT3dLMGJrZWZlUGkwWlFxTUhNZ2k1TTYzOUdVUEpIQXFmbkxZcDYxWUxaYngzUisyOW9DZG5ua2l2TmR0d21uUExJYllTcXhWbnhpUkQ4TU8yeU0vZWJuZ1hEbEU5di80b0Y3MDc5ZEtVRXIxSVE1NlRtb2JEdnVLcm1IK29nPT0tLU5Gd1RucGJJdXA0VnhCVmpMRWFkakE9PQ%3D%3D--28fecf2da4264b67d385a49baf4dcfb0d78cb6f3;
+        domain=.landing.jobs; path=/; secure; HttpOnly
+      - iref_signed=BAgw--110338054c8cd73eecf4b27e1e115409d58aaceb; path=/; expires=Wed,
+        08 Aug 2035 17:35:24 -0000; secure
+      X-Request-Id:
+      - 0e102780-cac5-43f9-99a9-402b98a64c25
+      X-Runtime:
+      - '0.028604'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIANw9xlUAA2yQS2/bMBCE/8pC5+hByXpeip5zTHrJxViTK4swRRLkKo5d
+        9L+XitEiBXrdnZ35Zn9mWmVT3z5lFlfKpuzlolej7SVmT1lcXOCj1yyXtPlu
+        Aa8YVH7V1mp7hh/PIN3q0d7gYt3VwuwCLPi+75SOYfNMCnghcDZZUlJbJsuw
+        Okus78jaWYgeJRUAKU9RlEH7ffyVBHQEBEOoduf/mniDnNLXlIYMgXbOCH47
+        GR0XCvETbQelPCGvFCTtYDdQQb8TnG7AW/gs5YNTm2R4JKNVfyeBZgpkJSUg
+        yw44oLzgyRDgPGujkelxVaQqxp3dcQsm9ViYfZzKUont46xlF+/i406FNG5T
+        c0htilSkRGaUy5qaxfLxVU2x3G1i2Ulq57adiapGjlLMh7oZqB9q1ammbrFq
+        RyHFKMq4ojGFt+dv4tB0w9CJoU8wVzpFzfSFJ+HEP+8tUlyZVDJQqqCOyElU
+        V+KQV0Mu2lfRTPU4VU0xduIt6Tav/tG1edXn9fgqxqmupqotur5+y379BgAA
+        //8DAEKEu69aAgAA
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:35:28 GMT
+recorded_with: VCR 2.9.3

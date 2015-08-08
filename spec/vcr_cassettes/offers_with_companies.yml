@@ -1,0 +1,1623 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.landing.jobs/api/v1/offers?limit=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:50:10 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      Location:
+      - https://landing.jobs/api/v1/offers?limit=10
+      Content-Type:
+      - text/html
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 7390cdc7-91d3-4a6c-88a0-cc423e1ba460
+      X-Runtime:
+      - '0.004339'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAFNBxlUAAxzNwQ3DIAxA0VVQBsDJtXLIHD2aYoIjEpBxK3X7Vjl/6X0s
+        dtaAsaVveLa3I2UXWa7dIbminNepmPXxAKh0pX/wR4sDqAt8Fmg5s46tyim2
+        LvMUlJMov4wTAgWPcMsI9+YHAAD//wMAgA2sgG0AAAA=
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:50:15 GMT
+- request:
+    method: get
+    uri: https://landing.jobs/api/v1/offers?limit=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      Cookie:
+      - ''
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:50:11 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, PUT, GET, OPTIONS
+      Access-Control-Request-Method:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Etag:
+      - W/"bbab18f0aec51b93b4402e00bebb147e"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _landingjobs_session=MGlPblJlc2xVUjMrcVJua3RIZjNpOXJmSDV5ODJxQ2ZtRWJJdDVTVmNiY3RuT3F2SHh5WWFkY3g0by9UQXBsbytadUgvTHJxc0VVbi90dTk3YXdJeG9RekxwZUdUbVdQOTJkSjAvaHZrNFVqcXFEMGxBOGxqZmVUYkw0U1dTQVVZYkRudmsxWTdyLzVoU0Z3eG5OeE9RPT0tLXEySXAwREYxVDVXV2F6c1RPeGtYenc9PQ%3D%3D--ccd8e24a2ca08904caa2ae69b5b4434d41c12943;
+        domain=.landing.jobs; path=/; secure; HttpOnly
+      - iref_signed=BAgw--110338054c8cd73eecf4b27e1e115409d58aaceb; path=/; expires=Wed,
+        08 Aug 2035 17:50:12 -0000; secure
+      X-Request-Id:
+      - f96b9ed4-fe8d-4715-a2e7-f665daeb7602
+      X-Runtime:
+      - '0.066349'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+        AAA=
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:50:17 GMT
+- request:
+    method: get
+    uri: https://www.landing.jobs/api/v1/companies/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:50:13 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      Location:
+      - https://landing.jobs/api/v1/companies/1
+      Content-Type:
+      - text/html
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - a5aae124-00fa-42e4-b3c8-b1d8d279200c
+      X-Runtime:
+      - '0.004509'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAFVBxlUAAxzNQQqAIBBG4auIB+inbUzeo+WYUxqmohZ0+6L1g++R72c0
+        ZLN7zJIvxVWUlZB2Rax8lW3WvvfSJiBycl8YjmwbuATcI9Z8Fk5BGkZtqrhQ
+        Ze3iCGwGwq8S/sULAAD//wMA22dzWWkAAAA=
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:50:18 GMT
+- request:
+    method: get
+    uri: https://landing.jobs/api/v1/companies/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      Cookie:
+      - ''
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:50:15 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, PUT, GET, OPTIONS
+      Access-Control-Request-Method:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Etag:
+      - W/"dab202b14dbe4df06b985566a54c9450"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _landingjobs_session=QTRLWS9rSURSSEw1Z21KMmE4b3l5ZUxueG50YVFIS0lmUnhXS0ttOFF0TFhTcXhRb2k3c2ZnU2g4TXRmTVBpWHlXeWJ1RnY4V2JMeCtwMWZOUXJCcy8ycThMdHIxK0EvbHZQSEg1ODRmcGJzYWl4b3BFQnZ1bFl6SWluSUp2SzhRY241TWxkMWpXWm1hMW1qUkdXcWxBPT0tLWhaQk1kaDBRRDR5dVUxOVFxMmpVeVE9PQ%3D%3D--230c382f7302a5f243ca9531feac9de10e728b5d;
+        domain=.landing.jobs; path=/; secure; HttpOnly
+      - iref_signed=BAgw--110338054c8cd73eecf4b27e1e115409d58aaceb; path=/; expires=Wed,
+        08 Aug 2035 17:50:15 -0000; secure
+      X-Request-Id:
+      - 56a9d75c-01a3-41d8-a1cd-8b9f3b57c7b3
+      X-Runtime:
+      - '0.014355'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAFdBxlUAA1RR227bMAz9FcHP8UXxpYlfiv1DgAF9CWSJjoXIkiBSdZth
+        /z66KYYN0JU8hzxH+lVYU4zyUHi1QjEWF+XuBvBeHApcQqJrtKQXTvxwrrS+
+        DB4OYkphQ0jlpBCM0Mo5ocETJIFhpk0lYDpX0clGssEz/ScIF95BbIsisYEw
+        4SBiyEnsMypEhgnrKTwDKZisSShvnkEOvFtj/U2oVT32HXOMrE98M7SzrAAr
+        wY2QkuVWnNlCugtcVaIDR9WnWPI6Ofiqu6o7H/62ol0Ypew+eVUe55BWFEvY
+        nuUzUlghodDBf+GnjNYDomBXidkg4sKPU7FzF27hmpNj2wtRxLGujcwfN6sH
+        fMiPB1TahWzmFDxVHqhWREov626g1mGNylvAei/Dd2h7fYLTYKCFl3aeu342
+        3bEd4GzmWUt15tEMumabzlXR315l1/at7PqmYTEbTGgJ/tHDcuj7lyvuxhid
+        QBGYqyKGHBvZlc2xlP1FnsdOju256tv+jXE5mv9wfdmcyqa9yG6UL+OxqQbZ
+        vRW//wAAAP//AwAsMsuqVAIAAA==
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:50:19 GMT
+- request:
+    method: get
+    uri: https://www.landing.jobs/api/v1/companies/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:50:15 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      Location:
+      - https://landing.jobs/api/v1/companies/1
+      Content-Type:
+      - text/html
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 67a11e2e-6c10-4be0-af57-110a324207db
+      X-Runtime:
+      - '0.004331'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAFhBxlUAAxzNQQqAIBBG4auIB+inbUzeo+WYUxqmohZ0+6L1g++R72c0
+        ZLN7zJIvxVWUlZB2Rax8lW3WvvfSJiBycl8YjmwbuATcI9Z8Fk5BGkZtqrhQ
+        Ze3iCGwGwq8S/sULAAD//wMA22dzWWkAAAA=
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:50:20 GMT
+- request:
+    method: get
+    uri: https://landing.jobs/api/v1/companies/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      Cookie:
+      - ''
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:50:16 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, PUT, GET, OPTIONS
+      Access-Control-Request-Method:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Etag:
+      - W/"195260b1e87da1c7f6f2c1bba0a3a217"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _landingjobs_session=TDQ5eGp0dEJWbkM0RjB3VjV5WXlSV1B3YkpjQmoxeUsvZjVkM1hibDNEOTlMTC9XZ1R4anZIOEIwLzQyb2VHN01SV0llT3h6R0lDUE56MW85Z3ltNVhtQ054bzA4UjhoQkRtQ05iUVdvUDU5SXFKMStLR0VEQnZqU3ZTaGkxQVcvelM1NFY1LzhDSzhSVkVQL1oyeTRRPT0tLS96QjhOR1hsM1pGSHg0MDZHallxN1E9PQ%3D%3D--782c13f1f8fbd10e147b1ba728a6bf99a0f6281c;
+        domain=.landing.jobs; path=/; secure; HttpOnly
+      - iref_signed=BAgw--110338054c8cd73eecf4b27e1e115409d58aaceb; path=/; expires=Wed,
+        08 Aug 2035 17:50:17 -0000; secure
+      X-Request-Id:
+      - 0b6bc1bd-2f70-4228-912a-1fdd94fcedfb
+      X-Runtime:
+      - '0.013900'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAFlBxlUAA1RR227bMAz9FcHP8UXxpYlfiv1DgAF9CWSJjoXIkiBSdZth
+        /z66KYYN0JU8hzxH+lVYU4zyUHi1QjEWF+XuBvBeHApcQqJrtKQXTvxwrrS+
+        DB4OYkphQ0jlpBCM0Mo5ocETJIFhpk0lYDpX0clGssEz/ScIF95BbIsisYEw
+        4SBiyEnsMypEhgnrKTwDKZisSShvnkEOvFtj/U2oVT32HXOMrE98M7SzrAAr
+        wY2QkuVWnNlCugtcVaIDR9WnWPI6Ofiqu6o7H/62ol0Ypew+eVUe55BWFEvY
+        nuUzUlghodDBf+GnjNYDomBXidkg4sKPU7FzF27hmpNj2wtRxLGujcwfN6sH
+        fMiPB1TahWzmFDxVHqhWREov626g1mGNylvAei/Dd2h7fYLTYKCFl3aeu342
+        3bEd4GzmWUt15tEMumabzlXR315l1/at7PqmYTEbTGgJ/tHDcuj7lyvuxhid
+        QBGYqyKGHBvZlc2xlP1FnsdOju256tv+jXE5mv9wfdmcyqa9yG6UL+OxqQbZ
+        vRW//wAAAP//AwAsMsuqVAIAAA==
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:50:22 GMT
+- request:
+    method: get
+    uri: https://www.landing.jobs/api/v1/companies/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:50:18 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      Location:
+      - https://landing.jobs/api/v1/companies/1
+      Content-Type:
+      - text/html
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - e7b91223-4297-4bbe-9776-7aee29392eda
+      X-Runtime:
+      - '0.004304'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAFpBxlUAAxzNQQqAIBBG4auIB+inbUzeo+WYUxqmohZ0+6L1g++R72c0
+        ZLN7zJIvxVWUlZB2Rax8lW3WvvfSJiBycl8YjmwbuATcI9Z8Fk5BGkZtqrhQ
+        Ze3iCGwGwq8S/sULAAD//wMA22dzWWkAAAA=
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:50:23 GMT
+- request:
+    method: get
+    uri: https://landing.jobs/api/v1/companies/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      Cookie:
+      - ''
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:50:19 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, PUT, GET, OPTIONS
+      Access-Control-Request-Method:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Etag:
+      - W/"6777dce5f436a73513fa5c861dfb8d88"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _landingjobs_session=aFlEMWZDaHpwRzdvNXJGN2xhNkJQSjRXK1ZlZUZEd1Z4OUk5MDAvdVF1WkxIcGFlNHpnUTBqM3Y0a0J3ZmpuN1hIeTcranNmbGVZTWxDM0tsY1hZY2NNcUpzS1RETHBMQ2xVcUUyeEVNdCtOM1o4SjJVZGhpYTNSTks0cTdmRnRyM3orU1l6L3RIbEVTUkh2akU5U2Z3PT0tLVBQWjRhSXdGQWlOWE91cE1LM3JXUGc9PQ%3D%3D--2cbc7123f1d021f5c86fe66567147e7b5e7b5fa7;
+        domain=.landing.jobs; path=/; secure; HttpOnly
+      - iref_signed=BAgw--110338054c8cd73eecf4b27e1e115409d58aaceb; path=/; expires=Wed,
+        08 Aug 2035 17:50:20 -0000; secure
+      X-Request-Id:
+      - 8ba48e61-1396-416e-a61f-5de81677813d
+      X-Runtime:
+      - '0.013373'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAFxBxlUAA1RR227bMAz9FcHP8UXxpYlfiv1DgAF9CWSJjoXIkiBSdZth
+        /z66KYYN0JU8hzxH+lVYU4zyUHi1QjEWF+XuBvBeHApcQqJrtKQXTvxwrrS+
+        DB4OYkphQ0jlpBCM0Mo5ocETJIFhpk0lYDpX0clGssEz/ScIF95BbIsisYEw
+        4SBiyEnsMypEhgnrKTwDKZisSShvnkEOvFtj/U2oVT32HXOMrE98M7SzrAAr
+        wY2QkuVWnNlCugtcVaIDR9WnWPI6Ofiqu6o7H/62ol0Ypew+eVUe55BWFEvY
+        nuUzUlghodDBf+GnjNYDomBXidkg4sKPU7FzF27hmpNj2wtRxLGujcwfN6sH
+        fMiPB1TahWzmFDxVHqhWREov626g1mGNylvAei/Dd2h7fYLTYKCFl3aeu342
+        3bEd4GzmWUt15tEMumabzlXR315l1/at7PqmYTEbTGgJ/tHDcuj7lyvuxhid
+        QBGYqyKGHBvZlc2xlP1FnsdOju256tv+jXE5mv9wfdmcyqa9yG6UL+OxqQbZ
+        vRW//wAAAP//AwAsMsuqVAIAAA==
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:50:24 GMT
+- request:
+    method: get
+    uri: https://www.landing.jobs/api/v1/companies/11
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:50:20 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      Location:
+      - https://landing.jobs/api/v1/companies/11
+      Content-Type:
+      - text/html
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 28270a1a-8166-4c68-91ee-ec71da1d983c
+      X-Runtime:
+      - '0.004314'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAF1BxlUAAxzNQQqAIBBG4atIB+jHbUzeo+WYUxqlohZ0+8L1g++Rb9dp
+        yCb3miXdiosoKyHuilj5Its8+NZynYCTo/vDeCRbwTng0VjTlTkGqdB6MEVc
+        KLI2cQQ2I6GzhP74AAAA//8DAIfFA49qAAAA
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:50:21 GMT
+- request:
+    method: get
+    uri: https://landing.jobs/api/v1/companies/11
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      Cookie:
+      - ''
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:50:21 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, PUT, GET, OPTIONS
+      Access-Control-Request-Method:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Etag:
+      - W/"89c6149bd874ed21789e6b48cafac31c"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _landingjobs_session=Q1cxcTV1T3kwNnB0WkYvSW8yNG8zZEJiVDdYaTlRYjdiK1lqSnpkQ3l6SnAzQlNvUTBXV3hGbVFxdGdHNzNPZjN1OTlvTjM5SW9vYXFpeDhnRVVHWDJNOXkreU1YbU1Rd3ZnOWxLVXJ6WlRsYzZHSVhpZFNpektiekpNb0xtcDJxYkIrWVZ4dkxvU3I1Sm9xcGdRWi9nPT0tLTNLZENsQmpmTVpKWTZZRFlHVzBtcFE9PQ%3D%3D--7b4a90238372db2b6b4f96efa24b61e50ffc845d;
+        domain=.landing.jobs; path=/; secure; HttpOnly
+      - iref_signed=BAgw--110338054c8cd73eecf4b27e1e115409d58aaceb; path=/; expires=Wed,
+        08 Aug 2035 17:50:22 -0000; secure
+      X-Request-Id:
+      - 6a0a8ff5-5f5d-4635-a81e-3765ac954374
+      X-Runtime:
+      - '0.013453'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAF5BxlUAA1RSS3LbMAy9CkZrWz/LluNNV71Am5lOs8nQJCSxoUiVAK04
+        nc7kEN30ejlJITVt0w0hQQ94H+pbZk12qqpN5tWI2Sn7iGgiZZuMhhD5frKs
+        B2l/wEtwiW3wKl434HHeQPDOeoTJKe5CHEEOsP6CxNb38gTEKnKalm0GSUc7
+        LQv+koAl4AFhDtGZl+efBA6VWWbxa7J8BR3DbLrk194fmhw+IYzqAcEykB0n
+        hyuz8tfg8eX5RxfDKG89OpJi4IKeU0TQSswoZ4lpAxygixa9+Y3p1GjdVYal
+        f0YdRnx1EhaZHtR4tqI9yWQvonjYdkEnQgPvUwwTKg/nRJIGEVIOn0MSOv+6
+        A5Q4s8widNFJMCY9LPUqMGcfcLNqmBEGqYJSzkHo1mwc9sqBEbJRbKglvxVs
+        EoKxzvboNS5u0NNikgfFb6SAkh4hQ5rWkChpLR/E6LLkn8VeIEJnoyQhBw0y
+        l4Pcmwt9uE/RyaUNzBOdisJU6bG3+kBP1eMT5tqFZCRzz7lHLhSz0sMilgrJ
+        cVLeIhXLGirOVdN257rsjp3pqvP+ppKsUd2Yuq12+07joTvuDntd0CgR5F8m
+        7N9VjXTqY9s0ombGM1nGN4JEzzzPOa0/VC6EgtIRFaO5VyyguqyabVlv68Nt
+        VZ/q5tSU+bHa3QkuTeY/3H5btttdeVu1p6Y9lWVet+1d9v0XAAAA//8DADdf
+        +PkjAwAA
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:50:22 GMT
+- request:
+    method: get
+    uri: https://www.landing.jobs/api/v1/companies/26
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:50:23 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      Location:
+      - https://landing.jobs/api/v1/companies/26
+      Content-Type:
+      - text/html
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - b3785891-ab32-4837-b4a6-2c988fff3f55
+      X-Runtime:
+      - '0.004190'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAF9BxlUAAxzNQQqAIBBG4atIB+inFi1i8h4tx5zSKBW1oNsXrR98j1w9
+        D00m2kfP8VKcRRnxYVPEymVZp8bVmsoIHBzsF9o9mgJOHneHJZ6Jg5eCfmh0
+        FuuzLFUsgXVL+FnC/3gBAAD//wMAB2aBbGoAAAA=
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:50:24 GMT
+- request:
+    method: get
+    uri: https://landing.jobs/api/v1/companies/26
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      Cookie:
+      - ''
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:50:24 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, PUT, GET, OPTIONS
+      Access-Control-Request-Method:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Etag:
+      - W/"e27ad30be2ac2c3b9c161f718b017e7a"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _landingjobs_session=YjJzM1YxRk5jd2RNL2lpUThjZk5vRVArMmU2eXVtb2hjVm1hZEcrdzByRWJnendFSzNnTXQycWhiaWV4WVpwWm51Tkw0Ky8rY2hrRDNSdE4rWnZ0NCs1Q28wSVI2N3lGeEFUYVpacUpNc3pNdGthVDhMUFlzMG14dGpqUzZwT0tyYkhXUG1QNUxUeE1qWlpVV1JtbVdRPT0tLW1tNVp5QnBERDRaanA0TTRtNE1LTEE9PQ%3D%3D--554b6299ce11533c5bd4f4b941e301852fbe4b8c;
+        domain=.landing.jobs; path=/; secure; HttpOnly
+      - iref_signed=BAgw--110338054c8cd73eecf4b27e1e115409d58aaceb; path=/; expires=Wed,
+        08 Aug 2035 17:50:24 -0000; secure
+      X-Request-Id:
+      - b7051869-6d40-4a7f-b422-572eddcc7f1b
+      X-Runtime:
+      - '0.014505'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAGBBxlUAA1SQTU+EMBCG/0rDeYGWjy5wMSbeNbqnvWxKO0CT0jZ0kGWN
+        /92uHtTz+8y8z8xHolXSFfyQWDFD0iXPK77tAWEOySEJk1vw4jXKKUavwmtF
+        Hr03WgrUzpInMPodlp28GIGDW+Y4oyDIRft7HmdOE5BBxH0BySZ2go7IBQTC
+        gSjwxu1EWEXkJOwIZHfrQuQa0M1kdr028J1u0BPx23oXM250l3UxsWFC9KHL
+        c8XW66glDzd2vUEmjVvVsDiLmQXMBaKQ0wwWQy7d7IXVEPL7mpAfm2KoeU8l
+        r1kxDKylDTAuj7RvWdWXNT+WXCja52EWxmTejg+sKpuGNxVjUSb6BY3wxyfq
+        bNuWuRXDzy+z2BnJn9PVRWAEC8qqlFYp4yfGu6rsyiZra3qO3OrVP65OaZPS
+        yJVdRTvGspa15+TzCwAA//8DAKBDYSS9AQAA
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:50:25 GMT
+- request:
+    method: get
+    uri: https://www.landing.jobs/api/v1/companies/41
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:50:25 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      Location:
+      - https://landing.jobs/api/v1/companies/41
+      Content-Type:
+      - text/html
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 6fe1267a-ef2a-42ac-bebd-974f4463e4da
+      X-Runtime:
+      - '0.004309'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAGJBxlUAAxzNQQqAIBBG4auIB+gnaBWT92g55pRGqagF3b5o/eB75Nt5
+        GLLJPWZOl+IiykqImyJWvsg6ad9ariNwcHRf6PZkKzgH3D2WdGaOQSqGXpsi
+        LhRZmjgCm47ws4T/8QIAAP//AwC4FjtiagAAAA==
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:50:26 GMT
+- request:
+    method: get
+    uri: https://landing.jobs/api/v1/companies/41
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      Cookie:
+      - ''
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:50:26 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, PUT, GET, OPTIONS
+      Access-Control-Request-Method:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Etag:
+      - W/"5d03a40118fc65e121584d592554f6f8"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _landingjobs_session=aDhCYVpWTVRGYWMwUHRDUk5ndmVHOER1czBuYVdGVXVyV1padTBFYmtVWW5uKzhwdUxZMzFVVXlXSDY0Z2RmSm9hOTZDWG8yQndwQTVqaTdFL3NoOFd1bG02T2tRN0MvKzNoSjBJT1NvZWVGd01LVTNFbzYxODlndmc0SXFNUTBISVBFeHRpUm9OQjY4LytjV2wxYnFnPT0tLVA4V1c2OWxKT3RoOHViMloyZHdRRkE9PQ%3D%3D--085300cb13c43ca39728e162fc2f2745988ea630;
+        domain=.landing.jobs; path=/; secure; HttpOnly
+      - iref_signed=BAgw--110338054c8cd73eecf4b27e1e115409d58aaceb; path=/; expires=Wed,
+        08 Aug 2035 17:50:27 -0000; secure
+      X-Request-Id:
+      - 119b9ace-2ac2-4353-989c-2a973d91c8f0
+      X-Runtime:
+      - '0.013757'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAGNBxlUAA1yQ0YrbMBBFf0X4ObGttRLHfukXFAotLOxLkKWxPSBLQhp5
+        0y39944bCm3fJO7RnTP6UaGtRiVPldcbVGP1tUw75qJddaryGhLdI5JZOXkF
+        sWpvTdIzCVpDWVaaixMWFyTtBDwiJARvIHOsScAWwzskgd7ijpY784kvmZAK
+        YfBZcJ0wYduKR0LIPNJCNgnjEf8tI5Bh8QqTsLCDC3EDT8fTqP13MaewCc+u
+        KyQvvvChLNqdnhYaN/YJwiTQBDzfh10T7iBiCrYYymIOiVn43X8ofQ4TOqgF
+        +7iwhHtJjmVWopjHprGyPBY01/whHx9QGxeKZQNPtQdqNJE266GXm6cfL9Yc
+        Nblp7XDV8jr3RvatVreLnMykB2knY25dZ+E6tAASmrxp5+rol09Sdb269b2S
+        LPMOU0aC/3zyn0+qTWiYei5q75oYemmlOreXs2y/STWqbuy6ulXqjbkS7T/c
+        5dz25465fnxhVNaDGt6qn78AAAD//wMAIntyhSICAAA=
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:50:27 GMT
+- request:
+    method: get
+    uri: https://www.landing.jobs/api/v1/companies/61
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:50:27 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      Location:
+      - https://landing.jobs/api/v1/companies/61
+      Content-Type:
+      - text/html
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - b7a59763-fbd6-4681-899d-7bc428c1c533
+      X-Runtime:
+      - '0.004493'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAGRBxlUAAxzNQQqAIBBG4auIB+inTYuYvEfLMac0SkUt6PZF6wffI9/O
+        w5BN7jFzuhQXUVZC3BSx8kXWSfvWch2Bg6P7QrcnW8E54O6xpDNzDFIx9NoU
+        caHI0sQR2HSEnyX8jxcAAP//AwBeN94PagAAAA==
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:50:28 GMT
+- request:
+    method: get
+    uri: https://landing.jobs/api/v1/companies/61
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      Cookie:
+      - ''
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:50:30 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, PUT, GET, OPTIONS
+      Access-Control-Request-Method:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Etag:
+      - W/"2dea9615a20b059a11513817e2635e78"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _landingjobs_session=U0FoeDhPWGxRUktEbitEQnZPRTNtN2dQaXpYbUdUK0VKRzByWG41SlZxRit0NVdkeGtOWmpKbDZCWk1MVEoxd1NXdTF2cmhPU1ErUkZKV2VyWU41VEVVYU12Uy9MRCtRWllCblI2WHZ1RXYxSTc2cWRIMnpCYnB4bXdHeVVpbTNiZFY3bDMyKzVGTjhCbFJubEd6SFlRPT0tLUtqVHhJQWMzRFdlNy92bkZweFY2WUE9PQ%3D%3D--5c95097a3ef0de7ab23d01a73d0f4b4a1c5d5b39;
+        domain=.landing.jobs; path=/; secure; HttpOnly
+      - iref_signed=BAgw--110338054c8cd73eecf4b27e1e115409d58aaceb; path=/; expires=Wed,
+        08 Aug 2035 17:50:30 -0000; secure
+      X-Request-Id:
+      - c64cb7cc-f24d-49dd-add4-ac3cb92b32a7
+      X-Runtime:
+      - '0.014440'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAGZBxlUAA1SQwW7bMBBEf2WhSy+2JEqypehS1O2lpxaIgQJBAIMi1xIB
+        ihS4K9tx0X8v5QRxcuBhydmZ4fubGJ20W7FKnBwxaZM/2GlkaSwlq4QGH/gw
+        GVZDfPo1oYNHPweFsDM9/JAs4ZuT9oUMgXQadjMZh0Tw0zFaa3p0CqOPRlLB
+        TGy8iz6PEyojrbmiBuPgNzqWg1/BPRo0ntD6iYAHhO977+Mde8ALY4x52/hC
+        EKTrEfwRyNt5sacUnsOzW87+vqr8CQPope/J0Lxky0W9ivmMfbgNtx+c4pt+
+        Gyn25A+Gn/pZEy1f+42eGGg2LDuLdwY3MmwUvZeDow/wEgECKXQyGJ/CzvOw
+        UGAMI91+ElNfaXaz7pFTiACt7/1hDjbSG5gnarNMi/nSG7Wlq7hcMVXWz/oY
+        vOPUIWeSWaphjKAoU36cpDNI2WJDWaV11TWdxBqFyrHDbts18gGLqihUmTey
+        ELkq1CajUVqbTq7/Kqqy2da1qEQsc8aODOOHPrHO+XxOz++A0omjUAWUjPog
+        OeqKXFTrvF6LZi/ydlO2ZZmWIn+KunnSn3Sbdd6s82qfN1HU5k36UJdPyb//
+        AAAA//8DAGLJobOsAgAA
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:50:30 GMT
+- request:
+    method: get
+    uri: https://www.landing.jobs/api/v1/companies/65
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:50:30 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      Location:
+      - https://landing.jobs/api/v1/companies/65
+      Content-Type:
+      - text/html
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - ccf8846b-9220-4f88-9e5b-59d5e9a87b6f
+      X-Runtime:
+      - '0.004350'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAGdBxlUAAxzNQQqAIBBG4atIB+inRS1i8h4tx5zSKBW1oNsXrR98j1w9
+        D00m2kfP8VKcRRnxYVPEymVZp8bVmsoIHBzsF9o9mgJOHneHJZ6Jg5eCoW90
+        FuuzLFUsgXVL+FnC/3gBAAD//wMAdC1UfmoAAAA=
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:50:31 GMT
+- request:
+    method: get
+    uri: https://landing.jobs/api/v1/companies/65
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      Cookie:
+      - ''
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:50:31 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, PUT, GET, OPTIONS
+      Access-Control-Request-Method:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Etag:
+      - W/"0ce88554b57384c3409449b95d77c22a"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _landingjobs_session=TnpURk5oQ0hpMTdjN2VxUUEwZm9DcXpDRTQ0c1k1akVSTEtmWFdhUVhLRDlwQ3duUVBpSHVWNm9CTCtaYUlhZ2J4ZzJVcURYd1Z5OGh1V1NHVzRLYVk3eVJWSll3azdIQ29rdUJaMnk2ejhXb3E4M3E0Rm81L0RqNlo4T0w0NlNIZUxWekorckNFb3RwUGlNcHNFWDJBPT0tLU54bzROMzZMaU5pZm11dzN5blhpNGc9PQ%3D%3D--d16143a8adb6fc764b0ad823445fe4b726321c73;
+        domain=.landing.jobs; path=/; secure; HttpOnly
+      - iref_signed=BAgw--110338054c8cd73eecf4b27e1e115409d58aaceb; path=/; expires=Wed,
+        08 Aug 2035 17:50:32 -0000; secure
+      X-Request-Id:
+      - 75a91542-6e95-47da-b2d5-94c7e22fb40e
+      X-Runtime:
+      - '0.013751'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAGhBxlUAA1yS3YrbMBCFX2XwdWJLSuzYvikU+gaBQlkIsjSxRWXJSHKy
+        PxT6Gvt6+yQd23ux6Z0ZnznnO4PeMqOztip3mZMjZm323fvfxvW58mO2y+Lg
+        Q7pMJqmB/v30weqPv+8RLEpNKvDOGocw+IQWnmbGRAVS0e7otUzGOwgYMdy2
+        b5pP0r2Qr8aogpmW6eKLIANCGhDuS8RqjyGCcdBtPI+u8TM4hx9SDaDlyw78
+        DQPUjO0YYxC8H8GZfkhxtd4oUNMefGmYw5kyvwzgjl00iXicBjlNtJ1SkCrB
+        zdDcE9M1kKzzaVh5LZo4h03fzZGYYoSIapWuZe5GY06Vre/9ZQ6W+g4pTbEt
+        Cs3n596oKr7y51fMlfWzJnuXcoepoGQqN6JLsdguZzAWi00sqpo1tegEuzZ0
+        c86bqzh0p6Y68O7anGoutOCy7g5FHKW1+eT6b/x4qDnjR1ERzGfN/3iIdzmE
+        TN3DI1ABZUJ9kYm0giz27LQX9ZmXrajbsswZa36Rbp70g67cs3rPyjNnrWha
+        VuWnI+n+/AMAAP//AwBH4CJNcwIAAA==
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:50:32 GMT
+- request:
+    method: get
+    uri: https://www.landing.jobs/api/v1/companies/70
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:50:33 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      Location:
+      - https://landing.jobs/api/v1/companies/70
+      Content-Type:
+      - text/html
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 827c12f1-e7b3-4107-acf8-777dd3ac2326
+      X-Runtime:
+      - '0.009523'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAGpBxlUAAxzNQQqAIBBG4atIB+ivVRCT92g55pRGqagF3b5o/eB75Op5
+        aDLRPnqOl+IsyogPmyJWLss6Na7WVEbg4GC/0O7RFHDyuHss8UwcvBQMXaOz
+        WJ9lqWIJrFvCzxL+xwsAAP//AwAHovbIagAAAA==
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:50:34 GMT
+- request:
+    method: get
+    uri: https://landing.jobs/api/v1/companies/70
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      Cookie:
+      - ''
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:50:34 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, PUT, GET, OPTIONS
+      Access-Control-Request-Method:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Etag:
+      - W/"7396f12e9a14454d364e06ad342c7de2"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _landingjobs_session=LzJKZXM1TG1CZjVybDF0Y2hwNzhXYWh2MjNXNVQ4ZUpYbWZIbjdYM0tEWGxsdE1HRHlnOHl0ZDU0QVgrNGQ3M1hSYmJ4a1g4eS9Yb3BSZi9GSWpRUXd0d1pMbkl6bnFRRTdGbWFET2EzTHJwY2pZblhNS0NsSW5MVzZRekY0Y2piWC9rYWFQZTZLTlZzMWNGSWlGeVRBPT0tLWpyZ3U2Smc1UHl0a1E5QkFWRk51RlE9PQ%3D%3D--e9d7ef2c96223e4ea950726bf7420b02d7abc98b;
+        domain=.landing.jobs; path=/; secure; HttpOnly
+      - iref_signed=BAgw--110338054c8cd73eecf4b27e1e115409d58aaceb; path=/; expires=Wed,
+        08 Aug 2035 17:50:35 -0000; secure
+      X-Request-Id:
+      - 06b087c1-c1b2-4a48-8b8e-abbbc029ae5d
+      X-Runtime:
+      - '0.013543'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAGtBxlUAA1SSTW7cMAyFr0J4PePf8c9400WK5gANUCCbgSxRYyGyJEh0
+        PU1RoNfo9XqS0pMsGkALQXx87yOhn5lR2diXh8yJBbMx+xzFJCK+wIN3abVk
+        3BUeo19DdsjS7CNdgiE5s/KLj7D4iECzcCBAoRQKD7Dh399/viPMaAMq8GsE
+        aQ06SkAeIgo5cwuaCFcvbMrhq1mC/QFJGHV4r6RVSkwJTLr378KcARQmGU0g
+        492O+vAIs0iAN0KXDEfiLWDkKIlgHEjOuvO/Xbg+ReEUSM+CwDiboRnWhOD1
+        ngtWECYCQjk7b/3VINN9Y1utUe4GTCn9MhmHIPYHQyzZo/Zu4wjj/RlhQWXE
+        mz9FocxOLCwsIr7gHUn7uLA5z8Q5/rJGywPNRCGNRaGq9XY1skuv1e0Vc2n9
+        qnT0jnKHVAgiXuGyL7RgmiAcQxS7TSpq3XRS63bS2DZde65kr3Tb1KiUHFp9
+        rrtJD6LBIi3C2jy466fq1HTDcK66E8NsOCVD+B8P42zblqv3b5FzIuvuG0V1
+        EcSyuqxOx3Lg81T2Y92MbZUPQ/nMujWoD7r2WPbHqnuq+rGpxrLJ66Z/zn79
+        AwAA//8DANw/K1iGAgAA
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:50:35 GMT
+- request:
+    method: get
+    uri: https://www.landing.jobs/api/v1/companies/75
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:50:35 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      Location:
+      - https://landing.jobs/api/v1/companies/75
+      Content-Type:
+      - text/html
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - d9f10efc-7b69-47d1-9f66-1d3d67616be2
+      X-Runtime:
+      - '0.004384'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAGxBxlUAAxzNQQqAIBBG4atIB+inRQQxeY+WY05plIpa0O2L1g++R66e
+        hyYT7aPneCnOooz4sCli5bKsU+NqTWUEDg72C+0eTQEnj7vDEs/EwUvB0Dc6
+        i/VZliqWwLol/Czhf7wAAAD//wMAh72mSGoAAAA=
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:50:36 GMT
+- request:
+    method: get
+    uri: https://landing.jobs/api/v1/companies/75
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Token token=f76d724e394e2e80743bbb1f2d86b29b
+      Cookie:
+      - ''
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 08 Aug 2015 17:50:36 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, PUT, GET, OPTIONS
+      Access-Control-Request-Method:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept, Authorization
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Etag:
+      - W/"b7ff086e3db12bd7a6900c27d1c47668"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - _landingjobs_session=Vmx1WElJbGJTc2JpWVd5aTNBbG1SUDczNlpEQ2phMzdUbFpNc05GOTZmc2xKWkg2OFFuM056aTZ0Q3p6NUNoc0dEWWRwbDVpYzJnK0RlNncyWUhTZXQrZWhKaTNHTW1lV3dHQVVlUUJ6TEY4YmZKcTNZaHpHSmMrTlduVE5qdXhuNk1ncDNEcEY4b0ZkSDM4dDFvdHBnPT0tLUxJclI5RFJaNHZqTzRUWmNNQUZZbGc9PQ%3D%3D--bf549426c002616999ea12c37792c88e4c315286;
+        domain=.landing.jobs; path=/; secure; HttpOnly
+      - iref_signed=BAgw--110338054c8cd73eecf4b27e1e115409d58aaceb; path=/; expires=Wed,
+        08 Aug 2035 17:50:37 -0000; secure
+      X-Request-Id:
+      - f26073f2-2f1f-42c5-9600-9fb108ffae9c
+      X-Runtime:
+      - '0.015350'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAG1BxlUAA2yQS2/bMBCE/8pC5+hByXpeip5zTHrJxViTK4swRRLkKo5d
+        9L+XitEiBXrdnZ35Zn9mWmVT3z5lFlfKpuzlolej7SVmT1lcXOCj1yyXtPlu
+        Aa8YVH7V1mp7hh/PIN3q0d7gYt3VwuwCLPi+75SOYfNMCnghcDZZUlJbJsuw
+        Okus78jaWYgeJRUAKU9RlEH7ffyVBHQEBEOoduf/mniDnNLXlIYMgXbOCH47
+        GR0XCvETbQelPCGvFCTtYDdQQb8TnG7AW/gs5YNTm2R4JKNVfyeBZgpkJSUg
+        yw44oLzgyRDgPGujkelxVaQqxp3dcQsm9ViYfZzKUont46xlF+/i406FNG5T
+        c0htilSkRGaUy5qaxfLxVU2x3G1i2Ulq57adiapGjlLMh7oZqB9q1ammbrFq
+        RyHFKMq4ojGFt+dv4tB0w9CJoU8wVzpFzfSFJ+HEP+8tUlyZVDJQqqCOyElU
+        V+KQV0Mu2lfRTPU4VU0xduIt6Tav/tG1edXn9fgqxqmupqotur5+y379BgAA
+        //8DAEKEu69aAgAA
+    http_version: 
+  recorded_at: Sat, 08 Aug 2015 17:50:37 GMT
+recorded_with: VCR 2.9.3
